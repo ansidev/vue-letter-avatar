@@ -1,6 +1,6 @@
 <template>
 <div>
-  <span v-for='letter of allLetter'>
+  <span v-for='(letter, index) of allLetter' :key="index">
     <vue-letter-avatar class='letter-avatar' :name='letter' :rounded=true />
   </span>
 </div>

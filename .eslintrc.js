@@ -1,5 +1,8 @@
 module.exports = {
-    "extends": "airbnb-base",
+    "extends": [
+      "plugin:vue/essential",
+      "airbnb-base",
+    ],
     "rules": {
       "eqeqeq": "off",
       "no-new": "off",
